@@ -1,0 +1,64 @@
+$SUBMATERIAL _CABIN2
+$TEXTURE 0 buildings/construction_office.dds
+$TEXTURE 1 buildings/blankspecular.dds
+$TEXTURE 2 buildings/construction_office_bump.dds
+
+$DIFFUSECOLOR 0.8 0.8 0.8 0.800000
+$SPECULARCOLOR 1.000000 1.000000 1.000000 1.000000
+$AMBIENTCOLOR 0.8 0.8 0.8 1.000000
+
+$SPECULARPOWER 2.000000
+
+
+
+$SUBMATERIAL warehouse5:ziam1
+$TEXTURE 0 buildings/construction_office_warehouse.dds
+$TEXTURE 1 buildings/blankspecular.dds
+$TEXTURE 2 buildings/blankbump.dds
+
+$DIFFUSECOLOR 0.8 0.8 0.8 0.800000
+$SPECULARCOLOR 1.000000 1.000000 1.000000 1.000000
+$AMBIENTCOLOR 0.8 0.8 0.8 1.000000
+
+$SPECULARPOWER 15.000000
+
+
+$SUBMATERIAL passenger_heliport:connection_to_oil:_oil_refinery_04SG1
+$TEXTURE 0 buildings/Oil_Refinery_04.dds
+$TEXTURE 1 buildings/blankspecular.dds
+$TEXTURE 2 buildings/blankbump.dds
+
+$DIFFUSECOLOR 0.8 0.8 0.8 0.800000
+$SPECULARCOLOR 1.000000 1.000000 1.000000 1.000000
+$AMBIENTCOLOR 0.8 0.8 0.8 1.000000
+
+$SPECULARPOWER 15.000000
+
+
+$SUBMATERIAL passenger_heliport:heliport_konstrukcia:heliport_03_dm
+$TEXTURE 0 buildings/heliport.dds
+$TEXTURE 1 buildings/blankspecular.dds
+$TEXTURE 2 buildings/blankbump.dds
+
+$DIFFUSECOLOR 0.8 0.8 0.8 0.800000
+$SPECULARCOLOR 1.000000 1.000000 1.000000 1.000000
+$AMBIENTCOLOR 0.8 0.8 0.8 1.000000
+
+$SPECULARPOWER 15.000000
+
+
+
+$SUBMATERIAL passenger_heliport:schodisko:blok_mat
+$TEXTURE 0 buildings/powerplant_nuclear_single.dds
+$TEXTURE 1 buildings/blankspecular.dds
+$TEXTURE 2 buildings/blankbump.dds
+
+$DIFFUSECOLOR 0.8 0.8 0.8 0.800000
+$SPECULARCOLOR 1.000000 1.000000 1.000000 1.000000
+$AMBIENTCOLOR 0.8 0.8 0.8 1.000000
+
+$SPECULARPOWER 15.000000
+
+
+$END
+
