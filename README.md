@@ -2,6 +2,8 @@
 
 A TesmioLoader plugin and Workshop building for **Workers & Resources: Soviet Republic** that combines normal road distribution with helicopter cargo distribution in a single office.
 
+Current version: **1.1.0**
+
 ## Features
 
 - 12 road-vehicle parking bays.
@@ -11,6 +13,7 @@ A TesmioLoader plugin and Workshop building for **Workers & Resources: Soviet Re
 - Uses the normal Distribution Office order, percentage and dispatch system.
 - Road vehicles assigned to this office ignore cargo-heliport jobs.
 - Cargo helicopters can service compatible cargo heliports.
+- Existing helicopters can be rehomed into the office through the vehicle's own UI and complete the normal native arrival/office-registration process.
 - Soviet and Western overseas targets are available directly from the Distribution Office panel for helicopter import/export jobs.
 - Appears with the normal Distribution Office construction options while retaining functional built-in helicopter pads.
 
@@ -40,15 +43,23 @@ Build a **Helicopter Distribution Office** and configure it like a normal Distri
 
 Ordinary road assignments are handled by road cargo vehicles. Assignments involving cargo heliports are reserved for helicopters from this office. Additional heliports can be attached to expand helicopter parking.
 
+Helicopters may be purchased directly through the office or rehomed into it from an existing helicopter's vehicle UI.
+
 The Soviet and Western buttons on the office panel add the game's overseas destinations as Distribution Office targets, allowing helicopters to import from or export across the border without using a road customs house.
 
-Helicopter dispatch is not automatically limited by the number of pads at a destination. Avoid assigning a very large helicopter fleet to a single-pad cargo heliport unless you are happy with an expensive aerial queue.
+## Recommended use
 
-## Source and Building
+The HDO is intended for **fast, long-range and difficult-to-access deliveries**, rather than as a high-volume replacement for road, rail or ship logistics.
 
-The plugin source is in `source/` and the ready-to-use Workshop files are in `mod/`.
+It is particularly useful for remote settlements, isolated industries, mountain facilities and other locations where conventional transport infrastructure would be awkward or excessive. If a route can sensibly move large continuous volumes by train or ship, that will generally be the better logistics solution.
 
-Build instructions are in `source/BUILD.md`.
+Helicopter dispatch is not automatically limited by the number of pads at a destination. Avoid assigning a large helicopter fleet to a single-pad cargo heliport unless you are happy with an expensive aerial queue.
+
+## Source and building
+
+The plugin source is in `source/` and the ready-to-use Workshop/runtime files are in `mod/`.
+
+Build instructions are in `source/BUILD.md`. Reverse-engineered hook notes are in `source/TECHNICAL_NOTES.md`.
 
 Repository:
 
